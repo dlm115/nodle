@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         Nodle.Nodle().config("ble.background-mode", true)
 
         // start Nodle -> add the key in the following format -> ss58:your-public-key
-        Nodle.Nodle().start( "ss58:your-public-key-here", "tag1", "tag2")
+        Nodle.Nodle().start( "ss58:4nngJX7Dh31YGNDGrH5Zmhc8QUgsSmCjkWqMFLYddYTEpZ2S", "tag1", "tag2")
 
         // show the events
         CoroutineScope(Dispatchers.Main).launch {
