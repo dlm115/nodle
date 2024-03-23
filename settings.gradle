@@ -30,5 +30,5 @@ dependencyResolutionManagement {
         }
     }
 }
-rootProject.name = "NodleSDKQuickStartAndroid"
+rootProject.name = "小面条"
 include ':app'
